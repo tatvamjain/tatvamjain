@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" fill="none">
+<defs><clipPath id="fc"><rect width="1200" height="60"/></clipPath></defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+.blink { animation: blink 1.05s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.in { animation: in .55s ease-out both; }
+@keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.scan { animation: scan 4s ease-in-out infinite; }
+@keyframes scan { 0% { transform: translateX(-200px); } 100% { transform: translateX(1400px); } }
+</style>
+
+<line x1="0" y1="30" x2="1200" y2="30" stroke="#262626"/>
+<g clip-path="url(#fc)"><rect class="scan" x="0" y="29" width="160" height="2" fill="#4ADE80" opacity=".9"/></g>
+<rect x="520.0" y="18" width="160" height="24" fill="#0A0A0A"/>
+<text x="594.0" y="35" font-size="13" fill="#6E6E6E" text-anchor="middle">EOF</text>
+<rect class="blink" x="612.0" y="23" width="8" height="15" fill="#4ADE80"/>
+</svg>

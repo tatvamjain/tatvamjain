@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="552" viewBox="0 0 1200 552" fill="none">
+<defs>
+<clipPath id="fr"><rect width="1200" height="552" rx="14"/></clipPath>
+</defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+.blink { animation: blink 1.05s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.in { animation: in .55s ease-out both; }
+@keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.ln { animation: in .5s ease-out both; }
+</style>
+
+<g clip-path="url(#fr)">
+  <rect width="1200" height="552" fill="#111111"/>
+  <rect width="1200" height="40" fill="#161616"/>
+  <rect y="40" width="1200" height="1" fill="#262626"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="551" rx="14" stroke="#262626"/>
+<circle cx="22" cy="20" r="5.5" fill="#3A3A3A"/><circle cx="40" cy="20" r="5.5" fill="#3A3A3A"/><circle cx="58" cy="20" r="5.5" fill="#3A3A3A"/>
+<text x="600.0" y="25" font-size="12.5" fill="#6E6E6E" text-anchor="middle">~/career — git log --graph --career</text>
+<line x1="40" y1="81" x2="40" y2="522" stroke="#262626" stroke-width="2"/><line x1="40" y1="81" x2="40" y2="522" stroke="#4ADE80" stroke-width="2" stroke-dasharray="30 400" opacity=".9"><animate attributeName="stroke-dashoffset" from="430" to="0" dur="3.5s" repeatCount="indefinite"/></line>
+<g class="ln" style="animation-delay:0.20s">
+  <circle cx="40" cy="81" r="6" fill="#0A0A0A" stroke="#4ADE80" stroke-width="2.5"/>
+  <text x="66" y="86" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">commit 9f2c41e</tspan><tspan fill="#6E6E6E"> (</tspan><tspan fill="#EDEDED">HEAD -&gt; main, tag: samsung-rnd</tspan><tspan fill="#6E6E6E">)</tspan></text>
+  <text x="66" y="110" font-size="13" fill="#6E6E6E" xml:space="preserve">Date:   Aug 2026 – Sep 2026 · Remote</text>
+  <text x="98" y="148" font-size="21" font-weight="800" fill="#EDEDED">Research Intern</text>
+  <text x="301" y="148" font-size="16" fill="#B4B4B4">@ Samsung Research &amp; Development</text>
+</g><text class="ln" style="animation-delay:0.45s" x="98" y="180" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">diffusion-based unsupervised anomaly detector for segmentation masks</tspan></text><text class="ln" style="animation-delay:0.57s" x="98" y="205" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">scores annotation defects with no defect labels, 6-type corruption suite</tspan></text><text class="ln" style="animation-delay:0.69s" x="98" y="230" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">AI-assisted QC: SAM2 resegmentation + Grounding DINO + IoU validation</tspan></text><text class="ln" style="animation-delay:0.81s" x="98" y="255" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">targets 90% error recall while routing &lt; 20% of frames to humans</tspan></text>
+<g class="ln" style="animation-delay:0.60s">
+  <rect x="870" y="104" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="135" font-size="22" font-weight="800" fill="#EDEDED">≈0.90</text>
+  <text x="1144" y="133" font-size="12.5" fill="#6E6E6E" text-anchor="end">AUROC · geometric</text>
+</g>
+<g class="ln" style="animation-delay:0.75s">
+  <rect x="870" y="160" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="191" font-size="22" font-weight="800" fill="#EDEDED">90%</text>
+  <text x="1144" y="189" font-size="12.5" fill="#6E6E6E" text-anchor="end">recall target</text>
+</g>
+<g class="ln" style="animation-delay:0.90s">
+  <rect x="870" y="216" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="247" font-size="22" font-weight="800" fill="#EDEDED">&lt;20%</text>
+  <text x="1144" y="245" font-size="12.5" fill="#6E6E6E" text-anchor="end">frames to review</text>
+</g>
+<g class="ln" style="animation-delay:1.40s">
+  <circle cx="40" cy="319" r="6" fill="#0A0A0A" stroke="#4ADE80" stroke-width="2.5"/>
+  <text x="66" y="324" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">commit 4b7e0d3</tspan><tspan fill="#6E6E6E"> (</tspan><tspan fill="#EDEDED">tag: american-express</tspan><tspan fill="#6E6E6E">)</tspan></text>
+  <text x="66" y="348" font-size="13" fill="#6E6E6E" xml:space="preserve">Date:   Jun 2026 – Aug 2026 · Gurugram</text>
+  <text x="98" y="386" font-size="21" font-weight="800" fill="#EDEDED">Product Development Intern</text>
+  <text x="440" y="386" font-size="16" fill="#B4B4B4">@ American Express</text>
+</g><text class="ln" style="animation-delay:1.65s" x="98" y="418" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">engineered 15+ decision variables and 25+ business rules</tspan></text><text class="ln" style="animation-delay:1.77s" x="98" y="443" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">shipped market-specific logic across 9+ international markets</tspan></text><text class="ln" style="animation-delay:1.89s" x="98" y="468" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">worked on a RAG-based AI agent automating dev workflows</tspan></text><text class="ln" style="animation-delay:2.01s" x="98" y="493" font-size="14" xml:space="preserve"><tspan fill="#4ADE80">+ </tspan><tspan fill="#B4B4B4">owned end-to-end SDLC across multiple product releases</tspan></text>
+<g class="ln" style="animation-delay:1.80s">
+  <rect x="870" y="342" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="373" font-size="22" font-weight="800" fill="#EDEDED">$9.8M</text>
+  <text x="1144" y="371" font-size="12.5" fill="#6E6E6E" text-anchor="end">PTI business impact</text>
+</g>
+<g class="ln" style="animation-delay:1.95s">
+  <rect x="870" y="398" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="429" font-size="22" font-weight="800" fill="#EDEDED">9+</text>
+  <text x="1144" y="427" font-size="12.5" fill="#6E6E6E" text-anchor="end">markets</text>
+</g>
+<g class="ln" style="animation-delay:2.10s">
+  <rect x="870" y="454" width="290" height="46" rx="8" fill="#0A0A0A" stroke="#262626"/>
+  <text x="886" y="485" font-size="22" font-weight="800" fill="#EDEDED">25+</text>
+  <text x="1144" y="483" font-size="12.5" fill="#6E6E6E" text-anchor="end">business rules</text>
+</g><line x1="845" y1="70" x2="845" y2="522" stroke="#262626" stroke-dasharray="3 5"/>
+</svg>

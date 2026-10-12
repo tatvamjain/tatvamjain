@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" fill="none">
+<defs><clipPath id="hc"><rect x="2" y="50" width="1196" height="10"/></clipPath></defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+.blink { animation: blink 1.05s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.in { animation: in .55s ease-out both; }
+@keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.scan { animation: scan 4s ease-in-out infinite; }
+@keyframes scan { 0% { transform: translateX(-200px); } 100% { transform: translateX(1400px); } }
+</style>
+
+<text x="2" y="36" font-size="15" fill="#4ADE80">05</text>
+<text x="40" y="37" font-size="15" fill="#6E6E6E">//</text>
+<text x="66" y="38" font-size="26" font-weight="800" fill="#EDEDED">achievements</text>
+<text x="1198" y="37" font-size="13" fill="#6E6E6E" text-anchor="end">$ grep -r 'won'</text>
+<line x1="2" y1="56" x2="1198" y2="56" stroke="#262626" stroke-dasharray="4 5"/>
+<g clip-path="url(#hc)"><rect class="scan" x="0" y="55" width="160" height="2" fill="#4ADE80" opacity=".9"/></g>
+
+</svg>

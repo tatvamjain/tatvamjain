@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none">
+<defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1C1C1C"/></pattern>
+<linearGradient id="sl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4ADE80" stop-opacity="0"/><stop offset="1" stop-color="#4ADE80" stop-opacity=".035"/></linearGradient>
+<clipPath id="c"><rect width="1200" height="400" rx="16"/></clipPath></defs>
+<style>
+text { font-family: 'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace; }
+.blink { animation: blink 1.05s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.in { animation: in .55s ease-out both; }
+@keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.role { opacity: 0; animation: role 12s ease-in-out infinite both; } .role.r0 { opacity: 1; }
+@keyframes role { 0% { opacity: 0; transform: translateY(10px); } 4% { opacity: 1; transform: none; }
+  21% { opacity: 1; transform: none; } 25% { opacity: 0; transform: translateY(-10px); } 100% { opacity: 0; } }
+.log { animation: log 9s ease-out infinite both; }
+@keyframes log { 0% { opacity: 0; transform: translateX(-8px); } 5% { opacity: 1; transform: none; } 85% { opacity: 1; } 95%,100% { opacity: 0; } }
+.sweep { animation: sweep 6s linear infinite; }
+@keyframes sweep { from { transform: translateY(-120px); } to { transform: translateY(400px); } }
+.pulse { animation: pulse 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pulse { from { transform: scale(1); opacity: .8; } to { transform: scale(3.2); opacity: 0; } }
+
+</style>
+
+<g clip-path="url(#c)">
+  <rect width="1200" height="400" fill="#0A0A0A"/>
+  <rect width="1200" height="400" fill="url(#dots)"/>
+  <rect class="sweep" width="1200" height="120" fill="url(#sl)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="399" rx="16" stroke="#262626"/>
+<text x="56" y="70" font-size="14" fill="#6E6E6E">tatvam@thapar <tspan fill="#B4B4B4">~</tspan> $ whoami</text>
+<text class="in" style="animation-delay:.15s" x="54" y="160" font-size="68" font-weight="800" letter-spacing="-2" fill="#EDEDED">Tatvam Jain</text>
+<rect class="blink" x="515" y="112" width="30" height="54" fill="#4ADE80"/>
+<text x="56" y="250" font-size="22" font-weight="700" fill="#4ADE80">&gt;</text>
+<text class="role r0" style="animation-delay:0s" x="82" y="250" font-size="22" fill="#EDEDED">GenAI &amp; RAG Engineer</text><text class="role" style="animation-delay:3s" x="82" y="250" font-size="22" fill="#EDEDED">Research Intern @ Samsung R&amp;D</text><text class="role" style="animation-delay:6s" x="82" y="250" font-size="22" fill="#EDEDED">Ex-Product Dev Intern @ American Express</text><text class="role" style="animation-delay:9s" x="82" y="250" font-size="22" fill="#EDEDED">Building agentic AI systems</text>
+<text class="in" style="animation-delay:.35s" x="56" y="300" font-size="15" fill="#B4B4B4">B.E. Computer Engineering · Thapar Institute · CGPA 9.40</text>
+<g class="in" style="animation-delay:.5s">
+  <circle cx="63" cy="337" r="4.5" fill="#4ADE80"/><circle class="pulse" cx="63" cy="337" r="4.5" fill="#4ADE80"/>
+  <text x="78" y="342" font-size="14" fill="#4ADE80">available</text>
+  <text x="166" y="342" font-size="14" fill="#6E6E6E">· internships &amp; full-time · SDE / ML / GenAI</text>
+</g>
+<line x1="720" y1="56" x2="720" y2="344" stroke="#262626"/>
+<text x="760" y="76" font-size="12" letter-spacing="2" fill="#6E6E6E">SYSTEM LOG</text>
+<circle cx="1144" cy="72" r="4" fill="#4ADE80" class="blink"/>
+<g class="log" style="animation-delay:0.6s"><text x="760" y="118" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">[ ok ]</tspan><tspan fill="#B4B4B4"> rag.index  </tspan><tspan fill="#6E6E6E">chromadb · 3 embedders</tspan></text></g><g class="log" style="animation-delay:1.5s"><text x="760" y="148" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">[ ok ]</tspan><tspan fill="#B4B4B4"> rag.rerank </tspan><tspan fill="#6E6E6E">30 → 5 chunks · context −83%</tspan></text></g><g class="log" style="animation-delay:2.4s"><text x="760" y="178" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">[ ok ]</tspan><tspan fill="#B4B4B4"> asr.eval   </tspan><tspan fill="#6E6E6E">wav2vec2 · dysarthric acc 87%</tspan></text></g><g class="log" style="animation-delay:3.3s"><text x="760" y="208" font-size="13" xml:space="preserve"><tspan fill="#EDEDED">[ .. ]</tspan><tspan fill="#B4B4B4"> cv.anomaly </tspan><tspan fill="#6E6E6E">diffusion QC · AUROC ≈ 0.90</tspan></text></g><g class="log" style="animation-delay:4.2s"><text x="760" y="238" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">[ ok ]</tspan><tspan fill="#B4B4B4"> amex.ship  </tspan><tspan fill="#6E6E6E">25+ rules · 9+ markets · $9.8M</tspan></text></g><g class="log" style="animation-delay:5.1s"><text x="760" y="268" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">[ ok ]</tspan><tspan fill="#B4B4B4"> status     </tspan><tspan fill="#6E6E6E">open_to_work = true</tspan></text></g>
+
+</svg>
