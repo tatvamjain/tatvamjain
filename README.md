@@ -1,5 +1,5 @@
 <a href="https://github.com/tatvamjain">
-  <img src="./assets/hero.svg" width="100%" alt="Tatvam Jain: GenAI and RAG engineer, Research Intern at Samsung R&D, ex-Product Development Intern at American Express. Open to internships and full-time roles."/>
+  <img src="./assets/hero.svg" width="100%" alt="Tatvam Jain: Software Engineer, Research Intern at Samsung R&D, ex-Product Development Intern at American Express. Open to internships and full-time roles."/>
 </a>
 
 <p align="center">
